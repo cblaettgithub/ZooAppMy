@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/AccountLayout">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="5mm"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/primary_text"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstname"
+        android:textSize="4mm"
+        android:textColor="@color/primary"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/text_view_information"
+        android:layout_marginLeft="10dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastname"
+        android:textSize="4mm"
+        android:textColor="@color/primary"
+        android:layout_below="@id/text_view_firstname"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/birthdate"
+        android:textSize="4mm"
+        android:textColor="@color/primary"
+        android:layout_marginTop="93dp"
+        android:layout_below="@+id/text_view_lastname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/text_view_showfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxx"
+        android:layout_alignBaseline="@id/text_view_firstname"
+        android:layout_marginLeft="150dp"
+        android:textSize="4mm"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_showlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxx"
+        android:layout_alignBaseline="@id/text_view_lastname"
+        android:layout_marginLeft="150dp"
+        android:textSize="4mm"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_showbirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxxx"
+        android:layout_alignBaseline="@id/text_view_birthdate"
+        android:layout_marginLeft="150dp"
+        android:textSize="4mm"/>
+
+
+</RelativeLayout>

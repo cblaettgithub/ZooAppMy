@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_account"
+            android:icon="@drawable/icon_account"
+            android:title="@string/account_nav" />
+        <item
+            android:id="@+id/fragment_animals"
+            android:icon="@drawable/icon_animal"
+            android:title="@string/animals_nav"/>
+        <item
+            android:id="@+id/fragment_cage"
+            android:icon="@drawable/icon_cage"
+            android:title="@string/cages_nav"/>
+        <item
+            android:id="@+id/fragment_food"
+            android:icon="@drawable/icon_food"
+            android:title="@string/food_nav"/>
+        <item
+            android:id="@+id/fragment_maps"
+            android:icon="@drawable/icon_map"
+            android:title="@string/map_nav"/>
+        <item
+            android:id="@+id/fragment_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/logout_nav"/>
+    </group>
+</menu>

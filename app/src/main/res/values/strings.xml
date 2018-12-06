@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Zoo</string>
+    <string name="title">ZOO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="radio_button_fr">FR</string>
+    <string name="radio_button_eng">EN</string>
+    <string name="button_login">Login</string>
+    <string name="account_nav">Account</string>
+    <string name="animals_nav">Animals</string>
+    <string name="cages_nav">Cages</string>
+    <string name="food_nav">Food</string>
+    <string name="map_nav">Map</string>
+    <string name="logout_nav">Logout</string>
+    <string name="drawer_layout_open">Open</string>
+    <string name="drawer_layout_close">Close</string>
+    <string name="information">Information</string>
+    <string name="firstname">Firstname :</string>
+    <string name="lastname">Lastname :</string>
+    <string name="birthdate">Birthdate :</string>
+    <string name="disconnect">Are you sure you want to disconnect ?</string>
+    <string name="yes">yes</string>
+    <string name="cancel">cancel</string>
+    <string name="add">add</string>
+    <string name="update">update</string>
+    <string name="remove">remove</string>
+    <string name="show">update</string>
+    <string name="category">category</string>
+    <string name="cage">Cage</string>
+    <string name="cagesize">Cagesize</string>
+    <string name="animal">Animal</string>
+    <string name="country">Country</string>
+    <string name="food">Foodname</string>
+    <string-array name="cage_list">
+        <item>Cage1</item>
+        <item>Cage2</item>
+        <item>Cage3</item>
+        <item>Cage4</item>
+    </string-array>
+    <string-array name="animals_category">
+        <item>Elephant</item>
+        <item>Tiger</item>
+        <item>Penguin</item>
+        <item>Giraffe</item>
+    </string-array>
+</resources>

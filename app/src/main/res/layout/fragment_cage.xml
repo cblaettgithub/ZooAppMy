@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear_layout_cage">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="3mm"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/animals_category"
+        android:layout_below="@id/text_view_category"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/primary"
+        android:popupBackground="@color/primary"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_view_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="2.5mm"
+        android:textColor="@color/primary_text"
+        android:layout_below="@id/spinner_category"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view_cage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text_view_information"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="130dp"
+        android:background="@color/primary_tint">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_text_cage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/text_view_information"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <Button
+            android:id="@+id/button_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remove"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/button_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
